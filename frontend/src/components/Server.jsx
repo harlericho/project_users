@@ -11,13 +11,13 @@ export const getUserById = async (id) => {
 };
 export const createUser = async (user) => {
   const response = await axios.post(URL, user);
-  return response.data;
+  return response;
 };
 export const updateUser = async (user) => {
   const response = await axios.put(URL + user.id, user);
-  return response.data;
+  return response;
 };
 export const deleteUser = async (id) => {
   const response = await axios.delete(URL + id);
-  return response.data;
+  return response;
 };

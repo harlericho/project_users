@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./style.css";
 import User from "./components/User";
 
 function App() {
